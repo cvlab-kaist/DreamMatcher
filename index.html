@@ -34,29 +34,29 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">DreamMatcher: Appearance Matching Self-Attention
-            for Semantically-Consistent Text-to-Image Personalization</h1>
+          <h1 class="title is-1 publication-title">DreamMatcher: <br> Appearance Matching Self-Attention <br>
+            for Semantically-Consistent <br>Text-to-Image Personalization</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="hhttps://nam-jisu.github.io/">Jisu Nam</a>,</span>
+              <a href="https://nam-jisu.github.io/">Jisu Nam<sup>1</sup></a>,</span>
             <span class="author-block">
-              Heesu Kim</a>,</span>
+              Heesu Kim<sup>2</sup></a>,</span>
             <span class="author-block">
-              DongJae Lee</a>,
+            </span>
+              <a href="https://www.linkedin.com/in/dong-jae-lee-3b271419b/">DongJae Lee<sup>2</sup></a>,</span>
+            <span class="author-block">
+              Siyoon Jin<sup>1</sup></a>,
             </span>
             <span class="author-block">
-              Siyoon Jin</a>,
+              <a href="https://cvlab.korea.ac.kr/members/faculty">Seungryong Kim<sup>&dagger;1</sup></a>,
             </span>
             <span class="author-block">
-              <a href="https://cvlab.korea.ac.kr/members/faculty">Seungryong Kim</a>,
-            </span>
-            <span class="author-block">
-              Seunggyu Chang</a>
+              Seunggyu Chang<sup>&dagger;2</sup></a>
             </span>
       
           </div>
           <div class="is-size-5 publication-authors">
-            <span class="author-block">Korea University, Naver Cloud</span>
+            <span class="author-block"><sup>1</sup>Korea University, <sup>2</sup>Naver Cloud</span>
           </div>
 
           <div class="column has-text-centered">
@@ -127,7 +127,7 @@
             
           <div class="content has-text-justified">
             <p style="font-size: 15px;">
-              <strong>Comparison between (a) key-value replacement and (b) appearance matching self-attention (AMA):</strong> AMA aligns the reference appearance path toward the fixed target structure path through explicit semantic matching and consistency modeling.
+              <strong>Comparison between (a) key-value replacement (MasaCtrl, Cao et al.) and (b) appearance matching self-attention (AMA):</strong> AMA aligns the reference appearance path toward the fixed target structure path through explicit semantic matching and consistency modeling.
              </p>
           </div>
         </div>
@@ -170,6 +170,18 @@
             <p style="font-size: 15px;">
               <strong>Qualitative comparision with baselines for non-live objects:</strong> We compare DreamMatcher with three different baselines, Textual Inversion, DreamBooth, and CustomDiffusion.</p>
           </p>
+          </div>
+
+          <img style="max-width: 100%;" src="static/images/suppl_sota_live.png">
+          <div class="content has-text-justified">
+            <p style="font-size: 15px;">
+              <strong>Qualitative comparision with previous works for live objects:</strong> For this comparison, DreamBooth is used as the baseline for MasaCtrl, FreeU, MagicFusion, and DreamMatcher.</p>
+          </div>
+
+          <img style="max-width: 100%;" src="static/images/suppl_sota_nonlive.png">
+          <div class="content has-text-justified">
+            <p style="font-size: 15px;">
+              <strong>Qualitative comparision with previous works for non-live objects:</strong> For this comparison, DreamBooth is used as the baseline for MasaCtrl, FreeU, MagicFusion, and DreamMatcher.</p>
           </div>
 
           <img style="max-width: 100%;" src="static/images/multiple_subjects.png">
