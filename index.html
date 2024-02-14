@@ -34,8 +34,8 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">DreamMatcher: <br> Appearance Matching Self-Attention <br>
-            for Semantically-Consistent <br>Text-to-Image Personalization</h1>
+          <h1 class="title is-3 publication-title">DreamMatcher: Appearance Matching Self-Attention <br>
+            for Semantically-Consistent Text-to-Image Personalization</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="https://nam-jisu.github.io/">Jisu Nam<sup>1</sup></a>,</span>
@@ -59,6 +59,10 @@
             <span class="author-block"><sup>1</sup>Korea University, <sup>2</sup>Naver Cloud</span>
           </div>
 
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>&dagger;</sup>Co-corresponding author
+          </div>
+
           <div class="column has-text-centered">
             <div class="publication-links">
               <span class="link-block">
@@ -72,7 +76,7 @@
               </span>
             
               <span class="link-block">
-                <a href=""
+                <a href="https://github.com/KU-CVLAB/DreamMatcher"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -86,26 +90,25 @@
       </div>
     </div>
   </div>
-</section>
-    <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          <img width="100%" src="static/images/teaser.png"> <br>
-          <div style="display: flex; justify-content: center; text-align: center; margin-bottom: 5px;"> 
-          <div class="content has-text-justified">
-            <p style="font-size: 15px;">
-              <strong>DreamMatcher enables semantically-consistent Text-to-Image (T2I) personalization.</strong> Our method is designed to be com-
-              patible with any existing T2I personalized models. When integrated with them, DreamMatcher significantly enhances subject appearance,
-              including colors, textures, and shapes, while accurately preserving the target structure as guided by the target prompt. Notably, our method
-              does not require any training or fine-tuning. </p>
-          </div>
-        </div>
-      </div>
-    </div>  
-  </div>
-</section>
-
 
 <section class="section">
+  <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <img width="100%" src="static/images/teaser.png"> <br>
+          <div style="display: flex; justify-content: center; text-align: center; margin-bottom: 5px;">
+            
+          <div class="content has-text-justified">
+            <p style="font-size: 15px;">
+              <strong>DreamMatcher enables semantically-consistent Text-to-Image (T2I) personalization.</strong> Our method is designed to be compatible with any existing T2I personalized models. When integrated with them, DreamMatcher significantly enhances subject appearance,
+              including colors, textures, and shapes, while accurately preserving the target structure as guided by the target prompt. Notably, our plug-in method
+              does not require any additional training or fine-tuning. </p>
+             </p>
+        </div>
+      </div>
+    </div>
+  </div> 
+  <br>
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
@@ -127,7 +130,7 @@
             
           <div class="content has-text-justified">
             <p style="font-size: 15px;">
-              <strong>Comparison between (a) key-value replacement (MasaCtrl, Cao et al.) and (b) appearance matching self-attention (AMA):</strong> AMA aligns the reference appearance path toward the fixed target structure path through explicit semantic matching and consistency modeling.
+              <strong>Comparison between (a) key-value replacement (MasaCtrl [Cao et al., ICCV’23]) and (b) appearance matching self-attention (AMA):</strong> AMA aligns the reference appearance path toward the fixed target structure path through explicit semantic matching and consistency modeling.
              </p>
           </div>
         </div>
@@ -195,8 +198,6 @@
         </div>
       </div>
     </div>
-    <br>
-    <br>
   </div>
 </section>
 
@@ -207,22 +208,20 @@
     </div>
   </div>
 </div>
-<br>
-<br>
 </div>
 </section>
 
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@misc{nam2023diffmatch,
+    <!-- <pre><code>@misc{nam2023diffmatch,
       title={DiffMatch: Diffusion Model for Dense Matching}, 
       author={Jisu Nam and Gyuseong Lee and Sunwoo Kim and Hyeonsu Kim and Hyoungwon Cho and Seyeon Kim and Seungryong Kim},
       year={2023},
       eprint={2305.19094},
       archivePrefix={arXiv},
       primaryClass={cs.CV}
-}
+} -->
 </code></pre>
   </div>
 </section>
