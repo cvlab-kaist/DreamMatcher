@@ -1,0 +1,24 @@
+a {} jumping over a cascading waterfall
+a {} swinging from the trees in a rainforest
+a {} jumping over a fence
+a {} climbing a tree
+a {} swinging on a swing
+a {} diving into a pool
+a {} running across a meadow
+a {} hopping on stepping stones
+a {} leaping across rooftops in a city
+a {} swimming upstream in a river
+a {} submerged halfway in a crystal-clear lake
+a {} looking out from a tent
+a {} camouflaged in tall grass
+a {} behind a cloud of smoke
+a {} inside a cave entrance
+a {} wearing a top hat
+a {} wearing a backpack
+a {} wearing a crown
+a {} in an astronaut outfit
+a {} wearing a bowtie
+a {} seen from the top
+a {} seen from the bottom
+a {} seen from the back
+a {} seen from the side

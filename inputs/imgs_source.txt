@@ -1,0 +1,18 @@
+{
+    "barn": "pedro-lastra-hXunh-ivkPc-unsplash.jpg",
+    "black_cat": "00.jpg",
+    "brown_cat": "03.jpg",
+    "brown_dog": "03.jpg",
+    "brown_dog2": "01.jpg",
+    "cat-toy": "2.jpeg",
+    "clock": "5.jpeg",
+    "duck_toy": "01.jpg",
+    "elephant_statue": "3.jpg",
+    "fat_dog": "02.jpg",
+    "monster_toy": "01.jpg",
+    "pink_sunglasses": "01.jpg",
+    "red_teapot": "1.jpeg",
+    "teddybear": "marina-shatskih-kBo2MFJz2QU-unsplash.jpg",
+    "tortoise_plushy": "3.png",
+    "vase": "02.jpg"
+}

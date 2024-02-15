@@ -1,0 +1,9 @@
+-e git+https://github.com/openai/CLIP.git@main#egg=clip
+accelerate
+pytorch_lightning
+einops
+matplotlib
+jmespath
+transformers
+opencv-python
+pillow==9.5.0

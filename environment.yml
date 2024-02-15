@@ -1,0 +1,12 @@
+name: dreammatcher
+channels:
+  - pytorch
+  - nvidia
+  - anaconda
+  - defaults
+dependencies:
+  - pytorch=1.13.1
+  - torchvision=0.14.1
+  - cudatoolkit=11.6
+  - libcusolver-dev
+  - mkl
