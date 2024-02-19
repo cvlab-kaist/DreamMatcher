@@ -94,5 +94,12 @@ We have mainly borrowed code from the public project [MasaCtrl](https://github.c
 If you find this research useful, please consider citing:
 
 ```BibTeX
-@article{}
+@misc{nam2024dreammatcher,
+      title={DreamMatcher: Appearance Matching Self-Attention for Semantically-Consistent Text-to-Image Personalization}, 
+      author={Jisu Nam and Heesu Kim and DongJae Lee and Siyoon Jin and Seungryong Kim and Seunggyu Chang},
+      year={2024},
+      eprint={2402.09812},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
