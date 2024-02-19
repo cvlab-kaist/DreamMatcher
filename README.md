@@ -89,7 +89,7 @@ Collect evaluation results for every concept in the result directory:
 
 We have mainly borrowed code from the public project [MasaCtrl](https://github.com/TencentARC/MasaCtrl). A huge thank you to the authors for their valuable contributions.
 
-### BibTeX
+# BibTeX
 
 If you find this research useful, please consider citing:
 
