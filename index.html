@@ -125,28 +125,25 @@
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           <h2 class="title is-3">Appearance Matching Self-Attention</h2>
-          <img width="80%" src="static/images/ill_conceptual.png"> <br>
-          <div style="display: flex; justify-content: center; text-align: center; margin-bottom: 5px;">
-            
-          <div class="content has-text-justified">
+          <!-- First Image and Caption -->
+          <img width="80%" src="static/images/ill_conceptual.png">
+          <div class="content has-text-justified" style="margin-top: 5px;">
             <p style="font-size: 15px;">
               <strong>Comparison between (a) key-value replacement (MasaCtrl [Cao et al., ICCV’23]) and (b) appearance matching self-attention (AMA):</strong> AMA aligns the reference appearance path toward the fixed target structure path through explicit semantic matching and consistency modeling.
-             </p>
-             </div>
+            </p>
+          </div>
+          <!-- Replicate the Image and Caption below -->
+          <img width="80%" src="static/images/motivation.png" style="margin-top: 20px;"> <!-- Added margin-top for spacing -->
+          <div class="content has-text-justified" style="margin-top: 5px;">
+            <p style="font-size: 15px;">
+              <strong>Intuition of DreamMatcher:</strong> (a) reference image, (b) disrupted target structure path by key-value replacement, (c) generated image by (b), (d) target structure path in pre-trained T2I model, and (e) generated image by DreamMatcher. For visualization, principal component analysis (PCA) is applied to the structure path. Key-value replacement disrupts target structure, yielding sub-optimal personalized results, whereas DreamMatcher preserves target structure, producing high-fidelity subject images aligned with target prompts.
 
-             <img width="80%" src="static/images/ill_conceptual.png"> <br>
-             <div style="display: flex; justify-content: center; text-align: center; margin-bottom: 5px;">
-               
-             <div class="content has-text-justified">
-               <p style="font-size: 15px;">
-                 <strong>Comparison between (a) key-value replacement (MasaCtrl [Cao et al., ICCV’23]) and (b) appearance matching self-attention (AMA):</strong> AMA aligns the reference appearance path toward the fixed target structure path through explicit semantic matching and consistency modeling.
-                </p>
+            </p>
           </div>
         </div>
       </div>
-    </div> 
-    <br>
-    
+    </div>
+    <br>    
     <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
