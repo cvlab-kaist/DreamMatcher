@@ -1,4 +1,4 @@
-# DreamMatcher: Appearance Matching Self-Attention for Semantically-Consistent Text-to-Image Personalization
+# DreamMatcher: Appearance Matching Self-Attention for Semantically-Consistent Text-to-Image Personalization (CVPR'24)
 
 This is the official implementation of the paper "DreamMatcher: Appearance Matching Self-Attention
 for Semantically-Consistent Text-to-Image Personalization" by Jisu Nam, Heesu Kim, DongJae Lee, Siyoon Jin, Seungryong Kim†, and Seunggyu Chang†.
